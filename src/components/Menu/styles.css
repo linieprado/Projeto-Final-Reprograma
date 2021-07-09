@@ -1,0 +1,25 @@
+.menu {
+    margin: 2rem;
+    display: flex;
+}
+    
+
+.menu li {
+    margin-left: 4rem;
+    list-style: none;
+}
+
+.link {
+    color: #d36135;
+    text-decoration: none;
+    align-items: initial;
+
+}
+
+@media (max-width:768px){
+    .menu {
+        margin: 2rem;
+        display: flex;
+        justify-content: flex-start;
+    }
+}

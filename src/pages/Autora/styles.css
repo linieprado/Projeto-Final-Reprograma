@@ -1,0 +1,58 @@
+.perfil {
+    margin: 2rem;
+    display: block;
+    justify-content:space-between;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    font-size: 18px;
+    text-align: justify;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    
+       
+}
+
+.foto-perfil {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: initial;
+
+}
+
+.tituloperfil{
+    color: #264653;
+}
+
+.tituloredes{
+    font-size: 32px;
+    margin: 2rem;
+    display: flexbox;
+    align-items:flex-start;
+    justify-content:space-between;
+    text-align:center;
+    color: #264653;
+}
+.titulolista{
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+.redes img {
+    max-width: 3%;
+    margin-bottom: 2rem;
+    display:flexbox;
+    text-align: center;
+    align-items:center;
+    justify-content: space-between;
+    margin-left: 30rem;
+       
+    
+        
+}
+
+
+    
+   
+
