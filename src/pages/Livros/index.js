@@ -38,7 +38,8 @@ const Livros = () => {
     return(
         <>
             <Menu />
-            <input placeholder="Digite um titulo" onChange={e=>{setBusca(e.target.value)}}/>
+            <h1 className='titulo-livros'>Biblioteca de Livros de Programação para Crianças e Bebês</h1>
+            <input className='input' placeholder="Digite um titulo" onChange={e=>{setBusca(e.target.value)}}/>
             {filtroLivro.map(livro=> (
                 <div>
                     <div className="main-livros" >

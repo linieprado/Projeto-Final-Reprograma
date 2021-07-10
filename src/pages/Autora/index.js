@@ -4,6 +4,7 @@ import GitHub from '../../assets/git.svg'
 import Instagram from '../../assets/insta.svg'
 import Perfil from '../../assets/perfil.jpg'
 import Menu from '../../components/Menu'
+import Form from '../../components/Form'
 
 import '../Autora/styles.css'
 
@@ -26,18 +27,18 @@ const Autora = () =>{
 
             <ul>
                 <h2 className='titulolista'>Formação</h2>
-                <li>Desenvolvedora Front End (HTML, CSS, Javascript, Node.Js) - REPROGRAMA - Turma ON10 (2021) - Em formação</li>
-                <li>Pedagoga e Secretária pela Universidade Federal da Bahia</li>
-                <li>Especialista em Educação Infantil e Alfabetização pela Faculdade Maurício de Nassau</li>
-                            </ul>
+                <li className='lista'>Desenvolvedora Front End (HTML, CSS, Javascript, React) - REPROGRAMA - Turma ON10 (2021) - Em formação</li>
+                <li className='lista'>Pedagoga e Secretária pela Universidade Federal da Bahia</li>
+                <li className='lista'>Especialista em Educação Infantil e Alfabetização pela Faculdade Maurício de Nassau</li>
+            </ul>
             <ul>
-                <h2 className='titulolista'>Soft Skills...</h2>
-                <li>Criatividade</li>
-                <li>Resiliência</li>
-                <li>Liderança</li>
-                <li>Empatia</li>
-                <li>Comunicação eficaz</li>
-                <li>Ética</li>
+                <h2 className='titulolista'>Soft Skills</h2>
+                <li className='lista'>Criatividade</li>
+                <li className='lista'>Resiliência</li>
+                <li className='lista'>Liderança</li>
+                <li className='lista'>Empatia</li>
+                <li className='lista'>Comunicação eficaz</li>
+                <li className='lista'>Ética</li>
                 
 
             </ul>
@@ -57,9 +58,11 @@ const Autora = () =>{
                 </a>
                 </div>
 
-            </div>                 
+            </div>     
+            < Form />            
              
         </>
+
     )
 }
 

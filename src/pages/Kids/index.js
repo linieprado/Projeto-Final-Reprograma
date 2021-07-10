@@ -23,12 +23,12 @@ const Kids = () =>{
             <h1 className='titulo-artigo'>A Importância do Ensino de  Programação para Crianças</h1><br/>
             <section className='site-section'>
                     <article className= 'artigo-site'>
-                    <p> Informática é coisa de criança também!E envolvê-los nesse mundo desde cedo pode favorecer inúmeros benefícios
-                        para o seu desenvolvimento. E esses benefícios vão muito além do que simplesmente a inserção e atratividade
-                        desde cedo no ambiente profissional da programação. <i>Programar</i> desenvolve o raciocício lógico matemárico, 
+                    <p> Informática é coisa de criança também! E envolvê-los nesse mundo desde cedo pode favorecer inúmeros benefícios
+                        para o seu desenvolvimento. Esses benefícios vão muito além do que simplesmente a inserção e atratividade
+                        desde cedo no ambiente profissional da programação. <i>Programar</i> desenvolve o raciocício lógico matemático, 
                         estimula a criatividade, as interações sociais, autonomia, dentre muitos outros aspectos, sociais, cognitivos e emocionais.<br/><br/>
                         A <i>linguagem de programação</i> é composta por códigos complexos que requer capacidade de análise, lógica e crítica, desenvolvendo
-                        lado esquerdo do cérebro da criança. Constatemente a criança é desafiada a pensar em ideias inovadoras e usar sua criatividade, afim
+                         o lado esquerdo do cérebro da criança. Constatemente a criança é desafiada a pensar em ideias inovadoras e usar sua criatividade, afim
                         de solucionar problemas do seu dia-a-dia com mais facilidade.<br/><br/> Com a <i>prática da programação</i>, as crianças poderão aprender a lidar
                         com as frustrações, ao por exemplo, não conseguir executar um código, ou perceber seus erros, tendo em vista, a sensibilidade da linguagem.
                         Como uma <i>linguagem a programação</i> ajuda a criança na organização dos pensamentos, na comunicação fazendo com que elas articulem seu pensamento
@@ -41,43 +41,46 @@ const Kids = () =>{
             </section>
             <section className='display-section'>
             <h2 className='titulo-display'>Plataformas de Programação para Crianças</h2>
-            <ul className='display-section'>                
+            <ol className='display-lista'>                
                 <li>
                 <img src={Scratch} alt="Site scratch"/>
-                <a href="https://scratch.mit.edu/">Scratch</a>
+                <a className='titulo-lista' href="https://scratch.mit.edu/">Scratch</a>
                 </li>
                 
                 <li>
                 <img src={Hora} alt="Site hora do código"/>
-                <a href="https://hourofcode.com/br">Hora do Código</a>
+                <a className='titulo-lista' href="https://hourofcode.com/br">Hour of Code</a>
                 </li>
                 
                 <li>
                 <img src={Code} alt="Site code combat"/>
-                <a href="https://br.codecombat.com/">Code Combat</a>
+                <a className='titulo-lista' href="https://br.codecombat.com/">Code Combat</a>
                 </li>
 
                 <li>
                 <img src={Alice} alt="Site alice"/>
-                <a href="https://www.alice.org/">Alice</a>  
+                <a className='titulo-lista' href="https://www.alice.org/">Alice</a>  
                 </li>
 
                 <li>
                 <img src={Block} alt="Site block"/>
-                <a href="https://blockly.games/">Blocky Games</a>
+                <a className='titulo-lista' href="https://blockly.games/">Blocky Games</a>
                 </li>
 
                 <li>
                 <img src={Twine} alt="Site twine"/>
-                <a href="http://twinery.org/">Twine</a>    
+                <a className='titulo-lista' href="http://twinery.org/">Twine</a>    
                 </li>
 
+                <img src='https://media.giphy.com/media/WemtkIRyd2JMciY3Zh/giphy.gif'></img>
+                
                 <li>
                 <img  src={Swift} alt="Site swift"/>
-                <a href="https://www.apple.com/swift/playgrounds/">Swift Playgrounds</a>  
+                <a className='titulo-lista' href="https://www.apple.com/swift/playgrounds/">Swift Playgrounds</a>  
                 </li>
 
-            </ul>
+            </ol>
+            
             </section>
             </main>
            
