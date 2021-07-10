@@ -72,7 +72,7 @@ const Kids = () =>{
                 <a className='titulo-lista' href="http://twinery.org/">Twine</a>    
                 </li>
 
-                <img src='https://media.giphy.com/media/WemtkIRyd2JMciY3Zh/giphy.gif'></img>
+                <img src='https://media.giphy.com/media/WemtkIRyd2JMciY3Zh/giphy.gif' alt='gif animado'></img>
                 
                 <li>
                 <img  src={Swift} alt="Site swift"/>
